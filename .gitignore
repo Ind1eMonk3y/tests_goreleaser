@@ -1,3 +1,3 @@
-.env
-load-env
 dist/
+.goreleaser.yml
+tests_goreleaser
