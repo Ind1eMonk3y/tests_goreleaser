@@ -16,7 +16,7 @@ curl -o- -s https://raw.githubusercontent.com/Ind1eMonk3y/tests_goreleaser/main/
 
 ## Notes
 
-### `goreleaser`
+### goreleaser
 
 -  If you already have `Go` installed, install `goreleaser` by running this command or any of the commands listed [here](https://goreleaser.com/install/).
 
@@ -36,7 +36,9 @@ goreleaser init
 goreleaser --snapshot --skip-publish --rm-dist
 ```
 
--  Create the appropriate environment variable for the token or paste the token in `~/.config/goreleaser/github_token`
+-  Create the appropriate environment variable for the token
+
+You could also paste the token in `~/.config/goreleaser/github_token`.
 
 More informations can be found [here](https://goreleaser.com/quick-start/) or [here](https://goreleaser.com/environment/).
 
@@ -59,7 +61,7 @@ goreleaser release --rm-dist
 ```
 
 
-### `godownloader`
+### godownloader
 
 - If you already have `Go` installed, install `godownloader` by running this command or use any binaries from [here](https://github.com/goreleaser/godownloader/releases).
 
